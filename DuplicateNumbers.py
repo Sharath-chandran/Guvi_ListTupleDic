@@ -1,8 +1,9 @@
-# Example lists
-list1 = [1, 2, 3, 4, 5]
-list2 = [3, 4, 5, 6, 7]
-list3 = [5, 6, 7, 8, 9]
+# Under the given 3 lists, Find the duplicates in the 3 lists
+list_1 = [17, 34, 45, 99, 101]
+list_2 = [45, 99, 101, 127, 143]
+list_3 = [101, 127, 143, 165, 179]
 
-# Find duplicates across all three lists
-duplicates = set(list1) & set(list2) & set(list3)
-print("Duplicates in all three lists:", list(duplicates))
+# Finding duplicates across all three lists
+# Comparing all the 3 lists
+duplicates = set(list_1) & set(list_2) & set(list_3)
+print("Duplicate number in all three lists:", duplicates)

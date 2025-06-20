@@ -1,7 +1,9 @@
-nums = [2, 3, 6, 11, 17, 23, 28, 32, 40, 48, 51, 57, 66, 72, 77, 80, 88, 99, 101, 108]
+# Given list of numbers
+numbers = [10, 501, 22, 37, 100, 999, 87, 351]
 
-even_nums = [n for n in nums if n % 2 == 0]
-odd_nums = [n for n in nums if n % 2 != 0]
+# n % 2 == 0 is true only when n is even
+even_numbers = [n for n in numbers if n % 2 == 0]
+odd_numbers = [n for n in numbers if n % 2 != 0]
 
-print("Even Numbers:", even_nums)
-print("Odd Numbers:", odd_nums)
+print("Even Numbers: ", even_numbers)
+print("Odd Numbers: ", odd_numbers)

@@ -1,3 +1,6 @@
+# Have to find the minimum value in the list
+rotated_list = [5, 6, 7, 1, 2, 3, 4]
+
 def find_min_in_rotated(arr):
     low, high = 0, len(arr) - 1
     while low < high:
@@ -8,6 +11,4 @@ def find_min_in_rotated(arr):
             high = mid
     return arr[low]
 
-# Example
-rotated_list = [5, 6, 7, 1, 2, 3, 4]
 print("Minimum element is:", find_min_in_rotated(rotated_list))
